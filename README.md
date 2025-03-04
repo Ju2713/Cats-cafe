@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ff69b4;
+            background-color: #ed97b5;
         }
 header { background-color: #f0f0f0; padding: 10px; display: flex; justify-content: space-between; align-items: center; }
         header img { height: 50px; }
@@ -24,7 +24,7 @@ header { background-color: #f0f0f0; padding: 10px; display: flex; justify-conten
 <body>
 
 <header>
-    <img src="logo.png" alt="Логотип Котакафе Лапка"> <!-- Не забудьте заменить на ваш логотип -->
+    <img src="href=http://avatars.mds.yandex.net/i?id=26411118f1183deade4998faa07e5e32_sr-8519693-images-thumbs&n=13" alt="Логотип Котакафе Лапка"> 
     <nav>
         <a href="#help">Помочь</a>
         <a href="#contacts">Контакты</a>
