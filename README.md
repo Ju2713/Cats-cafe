@@ -6,25 +6,24 @@
     <title>Котокафе "Лапка"</title>
     <style>
         body {
-            
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #ed97b5;
         }
-header { background-color: #f0f0f0; padding: 10px; display: flex; justify-content: space-between; align-items: center; }
-        header img { height: 50px; }
-        nav { display: flex; gap: 15px; }
-        section { padding: 20px; text-align: center; }
-        .two-images { display: flex; justify-content: center; gap: 20px; }
-        .fragment { margin-top: 40px; }
-        .fragment img { width: 100%; max-width: 400px; }
+header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-content: space-between; align-items: center; }
+        header img { height: 50 px; }
+        nav { display: flex; gap: 15 px; }
+        section { padding: 20 px; text-align: center; }
+        .two-images { display: flex; justify-content: center; gap: 20 px; }
+        .fragment { margin-top: 40 px; }
+        .fragment img { width: 100 %; max-width: 400 px; }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="href=http://avatars.mds.yandex.net/i?id=26411118f1183deade4998faa07e5e32_sr-8519693-images-thumbs&n=13" alt="Логотип Котакафе Лапка"> 
+    <img src="href=logo" alt="Логотип Котакафе Лапка"> 
     <nav>
         <a href="#help">Помочь</a>
         <a href="#contacts">Контакты</a>
@@ -36,12 +35,12 @@ header { background-color: #f0f0f0; padding: 10px; display: flex; justify-conten
 
 <section>
     <h1>Котакафе Лапка</h1>
-    <img src="main-image.jpg" alt="Картинка Котакафе Лапка"> <!-- Основная картинка -->
+    <img src="face" alt="Лицевая картинка Котакафе Лапка"> 
 </section>
 
 <section class="two-images">
-    <img src="image1.jpg" alt="Картинка 1"> <!-- Первая картинка -->
-    <img src="image2.jpg" alt="Картинка 2"> <!-- Вторая картинка -->
+    <img src="1p" alt="Внутреннее убранство1"> 
+    <img src="2p" alt="Внутреннее убранство2"> 
 </section>
 
 <div class="fragment" id="decor">
