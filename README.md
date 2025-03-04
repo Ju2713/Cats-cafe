@@ -23,7 +23,7 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
 <body>
 
 <header>
-    <img src="href=logotip.jpg" alt="Логотип Котакафе Лапка"> 
+    <img src="logotip.jpg" alt="Логотип Котакафе Лапка"> 
     <nav>
         <a href="#help">Помочь</a>
         <a href="#contacts">Контакты</a>
