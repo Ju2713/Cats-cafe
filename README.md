@@ -39,7 +39,7 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
 </section>
 
 <section class="two-images">
-    <img src="cats.jpg" alt="Внутреннее убранство1"> 
+    <img src="kitten.jpg" alt="Внутреннее убранство1"> 
     <img src="kitti.jpg" alt="Внутреннее убранство2"> 
 </section>
 
