@@ -43,7 +43,7 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
     <img src="2p" alt="Внутреннее убранство2"> 
 </section>
 
-<title>Что интересного вы у нас найдете</title>
+<p>Что интересного вы у нас найдете</p>
 <p>Ассортимент, декор и персонал</p>
 
 <div class="fragment" id="decor">
