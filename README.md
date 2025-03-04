@@ -23,7 +23,7 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
 <body>
 
 <header>
-    <img src="href=logo" alt="Логотип Котакафе Лапка"> 
+    <img src="href=logo.jpg" alt="Логотип Котакафе Лапка"> 
     <nav>
         <a href="#help">Помочь</a>
         <a href="#contacts">Контакты</a>
@@ -35,12 +35,12 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
 
 <section>
     <h1>Котакафе Лапка</h1>
-    <img src="face" alt="Лицевая картинка Котакафе Лапка"> 
+    <img src="face.jpg" alt="Лицевая картинка Котакафе Лапка"> 
 </section>
 
 <section class="two-images">
-    <img src="1p" alt="Внутреннее убранство1"> 
-    <img src="2p" alt="Внутреннее убранство2"> 
+    <img src="1p.ipg" alt="Внутреннее убранство1"> 
+    <img src="2p.jpg" alt="Внутреннее убранство2"> 
 </section>
 
 <p>Что интересного вы у нас найдете</p>
@@ -49,13 +49,13 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
 <div class="fragment" id="decor">
     <h2>Декор</h2>
     <p>Наше кафе состоит из двух зон, украшенных кошачьими элементами. Первая зона само кафе, а вторая игровая, в которой вы можете провести время с нашими котиками.</p>
-    <img src="decore" alt="Картинка декора"> 
+    <img src="decore.jpg" alt="Картинка декора"> 
 </div>
 
 <div class="fragment" id="menu">
     <h2>Напитки и десерты</h2>
     <p>В нашем кафе большой выбор горячих и холодных напитков. А также большой выбор десертов в кошачьей тематике.</p>
-    <img src="desert" alt="Картинка напитков и десертов"> 
+    <img src="desert.jpg" alt="Картинка напитков и десертов"> 
 </div>
 <div class="fragment" id="staff">
     <h2>Наш персонал</h2>
