@@ -13,7 +13,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #FFC0CB;
+            background-color: #ffc0cb;
         }
 header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-content: space-between; align-items: center; }
         header img { height: 50 px; }
@@ -64,7 +64,7 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
 <div class="fragment" id="staff">
     <h2>Наш персонал</h2>
     <p>В кафе вас встретят прекрасные кошко-девушки. На протяжении всего вашего присутствия они будут сопровождать и радовать вас.</p>
-    <img src="staff-image.jpg" alt="Картинка персонала"> 
+    <img src="staff-personal.jpg" alt="Картинка персонала"> 
 </div>
 
 </body>
