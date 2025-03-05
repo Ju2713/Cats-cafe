@@ -1,5 +1,9 @@
 # -<!DOCTYPE html>
 <html lang="ru">
+    <body>
+    This is another-page.html
+    <a href="/">go back to index.html</a>
+    </body>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
