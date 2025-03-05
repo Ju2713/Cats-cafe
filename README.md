@@ -64,7 +64,7 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
 <div class="fragment" id="staff">
     <h2>Наш персонал</h2>
     <p>В кафе вас встретят прекрасные кошко-девушки. На протяжении всего вашего присутствия они будут сопровождать и радовать вас.</p>
-    <img src="staff-personal.jpg" alt="Картинка персонала"> 
+    <img src="personal.jpg" alt="Картинка персонала"> 
 </div>
 
 </body>
