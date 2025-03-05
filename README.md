@@ -1,4 +1,4 @@
-# -<!DOCTYPE html>
+<!DOCTYPE!>
 <html lang="ru">
     <body>
     This is another-page.html
