@@ -13,7 +13,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ed97b5;
+            background-color: #FFC0CB;
         }
 header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-content: space-between; align-items: center; }
         header img { height: 50 px; }
