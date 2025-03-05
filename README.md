@@ -69,7 +69,7 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
 <p>Наши котики</p>
  <div class="photo-container">
         <div class="photo-item">
-            <img src="cat1.jpg" alt="Кот 1"> <!-- Замените на свой путь к изображению -->
+            <img src="mar.jpg" alt="Кот 1"> 
             <h3>Марципан</h3>
             <p>Это элегантный и изысканный котик с очаровательной внешностью. Он очень культурный и скромный, любит играть с солнечными зайчиками и плюшевыми мышками. А его любимое лакомство лосось.</p>
         </div>
