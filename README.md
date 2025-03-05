@@ -19,8 +19,8 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
         header img { height: 50 px; }
         nav { display: flex; gap: 20 px; }
         section { padding: 20 px; text-align: center; }
-        .two-images { display: flex; justify-content: center; gap: 20 px; }
-        .fragment { margin-top: 40 px; }
+        .two-images { display: flex; justify-content: center; gap: 40 px; }
+        .fragment { margin-top: 60 px; }
         .fragment img { width: 100 %; max-width: 400 px; }
     </style>
 </head>
