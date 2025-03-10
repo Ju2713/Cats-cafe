@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/main.css">
     <title>Котокафе "Лапка"</title>
     <style>
-        <body> {
+    <body> {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -56,12 +56,13 @@
     <img src="personal.jpg" alt="Картинка персонала"> 
 </div>
 <h1>Наши котики</h1>
- <div class="photo-container">
-        <div class="photo-item">
-            <img src="mar.jpg" alt="Кот 1"> 
+<div class="photo-container">
+    <div class="photo-item">
+        <img src="mar.jpg" alt="Кот 1"> 
             <h1>Марципан</h1>
             <p>Это элегантный и изысканный котик с очаровательной внешностью. Он очень культурный и скромный, любит играть с солнечными зайчиками и плюшевыми мышками. А его любимое лакомство лосось.</p>
-        </div>
+    </div>
+</div>
         <div class="photo-item">
             <img src="nik.jpg" alt="Кот 2"> 
             <h1>Никки</h1>
@@ -77,16 +78,16 @@
             <h1>Клео</h1>
             <p>Это очень озорная сиамская принцесса. Она очень умная кошка, которая любит играть с лазерной указкой и гладиться об ноги посетителей. А угостить ее вы можете сливочным сыром.</p>
         </div>
-      <div class="photo-item">
+        <div class="photo-item">
             <img src=".jpg" alt="Кот 5"> 
             <h1>Феликс</h1>
             <p>Это важный джентльмен, любящий через окно наблюдать за птицами и играть с удочкой-дразнилкой. Он с радостью полежит у вас на коленях и погладится об все ваше тело. А если вы покормите его паштетом из креветок, он будет счастлив.</p>
+        </div>
      <div class="photo-item">
           <img src="mgo.jpg" alt="Кот 6"> 
-         <div>
             <h1>Марго</h1>
             <p>Очаровательная, но горделивая кошка, которая никошда сама не попросит ласки. Однако она будет рада полежать у вас на коленях. Особенно, если вы угостите ее паштетом из индейки.</p>
-      </div>
-</body>
+     </div>
+    </body>
 </html>
      
