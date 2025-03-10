@@ -6,6 +6,7 @@
      <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/main.css">
     <title>Котокафе "Лапка"</title>
+</head>
     <style>
         body {
             font-family: Arial, sans-serif;
