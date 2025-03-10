@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -6,15 +6,14 @@
      <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/main.css">
     <title>Котокафе "Лапка"</title>
-</head>
     <style>
-        body {
+        <body> {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #ffc0cb;
         }
-header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-content: space-between; align-items: center; }
+<header> { background-color: #f0f0f0; padding: 10 px; display: flex; justify-content: space-between; align-items: center; }
         header img { height: 50 px; }
         nav { display: flex; gap: 20 px; }
         section { padding: 20 px; text-align: center; }
@@ -22,10 +21,7 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
         .fragment { margin-top: 60 px; }
         .fragment img { width: 100 %; max-width: 400 px; }
     </style>
-</head>
-<body>
-
-<header>
+       </body>
     <img src="logotip.jpg" alt="Логотип Котакафе Лапка"> 
     <nav>
         <a href="#help">Помочь</a>
@@ -35,69 +31,61 @@ header { background-color: #f0f0f0; padding: 10 px; display: flex; justify-conte
         <a href="#reserve">Забронировать</a>
     </nav>
 </header>
-
 <section>
     <h1>Котакафе Лапка</h1>
     <img src="face.jpg" alt="Лицевая картинка Котакафе Лапка"> 
 </section>
-
 <section class="two-images">
     <img src="kitten.jpg" alt="Внутреннее убранство1"> 
     <img src="kitti.jpg" alt="Внутреннее убранство2"> 
 </section>
-
-<h2>Что интересного вы у нас найдете</h2>
+<h1>Что интересного вы у нас найдете</h1>
 <p>Ассортимент, декор и персонал</p>
-
 <div class="fragment" id="decor">
-    <h3>Декор</h3>
+    <h1>Декор</h1>
     <p>Наше кафе состоит из двух зон, украшенных кошачьими элементами. Первая зона само кафе, а вторая игровая, в которой вы можете провести время с нашими котиками.</p>
     <img src="decore.jpg" alt="Картинка декора"> 
 </div>
-
 <div class="fragment" id="menu">
-    <h3>Напитки и десерты</h3>
+    <h1>Напитки и десерты</h1>
     <p>В нашем кафе большой выбор горячих и холодных напитков. А также большой выбор десертов в кошачьей тематике.</p>
     <img src="desert.jpg" alt="Картинка напитков и десертов"> 
 </div>
 <div class="fragment" id="staff">
-    <h3>Наш персонал</h3>
+    <h1>Наш персонал</h1>
     <p>В кафе вас встретят прекрасные кошко-девушки. На протяжении всего вашего присутствия они будут сопровождать и радовать вас.</p>
     <img src="personal.jpg" alt="Картинка персонала"> 
 </div>
-<h4>Наши котики</h4>
+<h1>Наши котики</h1>
  <div class="photo-container">
         <div class="photo-item">
             <img src="mar.jpg" alt="Кот 1"> 
-            <h5>Марципан</h5>
+            <h1>Марципан</h1>
             <p>Это элегантный и изысканный котик с очаровательной внешностью. Он очень культурный и скромный, любит играть с солнечными зайчиками и плюшевыми мышками. А его любимое лакомство лосось.</p>
         </div>
         <div class="photo-item">
             <img src="nik.jpg" alt="Кот 2"> 
-            <h5>Никки</h5>
+            <h1>Никки</h1>
             <p>Это гордая и независимая кошечка. Она любит лежать на коленках у гостей и нежиться на солнышке. Если вы захотите ее угостить, то знайте, ее любимое блюдо - куриная грудка.</p>
         </div>
         <div class="photo-item">
             <img src="myr.jpg" alt="Кот 3"> 
-            <h5>Муро</h5>
+            <h1>Муро</h1>
             <p>Это очень ласковый котик. Он любит спать на подоконнике, греясь на солнышке. Муро нравится, когда его гладят или чешут ему животик.  При желании можете покормить его креветками. </p>
         </div>
         <div class="photo-item">
             <img src="kleo.jpg" alt="Кот 4"> 
-            <h5>Клео</h5>
+            <h1>Клео</h1>
             <p>Это очень озорная сиамская принцесса. Она очень умная кошка, которая любит играть с лазерной указкой и гладиться об ноги посетителей. А угостить ее вы можете сливочным сыром.</p>
         </div>
       <div class="photo-item">
             <img src=".jpg" alt="Кот 5"> 
-            <h5>Феликс</h5>
+            <h1>Феликс</h1>
             <p>Это важный джентльмен, любящий через окно наблюдать за птицами и играть с удочкой-дразнилкой. Он с радостью полежит у вас на коленях и погладится об все ваше тело. А если вы покормите его паштетом из креветок, он будет счастлив.</p>
      <div class="photo-item">
           <img src="mgo.jpg" alt="Кот 6"> 
          <div>
-            <h5>Марго</h5>
+            <h1>Марго</h1>
             <p>Очаровательная, но горделивая кошка, которая никошда сама не попросит ласки. Однако она будет рада полежать у вас на коленях. Особенно, если вы угостите ее паштетом из индейки.</p>
      </div>
-    </div>
-</div>
-</body>
-</html>
+
