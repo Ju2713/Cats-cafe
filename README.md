@@ -13,7 +13,7 @@
             padding: 0;
             background-color: #ffc0cb;
         }
-<header> { background-color: #f0f0f0; padding: 10 px; display: flex; justify-content: space-between; align-items: center; }
+header { background-color: #ffc0cb; padding: 10 px; display: flex; justify-content: space-between; align-items: center; }
         header img { height: 50 px; }
         nav { display: flex; gap: 20 px; }
         section { padding: 20 px; text-align: center; }
