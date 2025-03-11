@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style/main.css">
     <title>Котокафе "Лапка"</title>
     <style>
-    <body> {
+    body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
