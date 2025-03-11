@@ -13,6 +13,7 @@
             padding: 0;
             background-color: #ffc0cb;
         }
+        </body>
 header { background-color: #ffc0cb; padding: 10 px; display: flex; justify-content: space-between; align-items: center; }
         header img { height: 50 px; }
         nav { display: flex; gap: 20 px; }
