@@ -87,7 +87,7 @@
         <section>
             <h1>Добро пожаловать в Котакафе "Лапка"</h1>
             <img src="face.jpg" alt="Лицевая картинка Котакафе Лапка"> 
-            <a href="#our-cats" class="cta-button">Познакомиться с нашими котиками</a>
+            <a href="#our-cats" class="cta-button">Котики</a>
         </section>
         <section class="two-images">
             <img src="kitten.jpg" alt="Внутреннее убранство1"> 
