@@ -65,13 +65,13 @@
         }
         .cta-button {
             display: inline-block;
-            margin: 20px auto;
-            padding: 10px 20px;
+            margin: 20 px auto;
+            padding: 10 px 20 px;
             background-color: #ff69b4;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
+            border-radius: 5 px;
+            font-size: 16 px;
             transition: background-color 0.3s ease;
         }
         .cta-button:hover {
@@ -80,47 +80,47 @@
        .popup {
             display: none;
             position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            top: 50 %;
+            left: 50 %;
+            transform: translate (-50 %, -50 %);
             background-color: white;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
+            padding: 20 px;
+            box-shadow: 0 4 px 8 px rgba (0, 0, 0, 0.2);
+            border-radius: 10 px;
             z-index: 1000;
             text-align: center;
         }
         .popup img {
-            width: 100px;
+            width: 100 px;
             height: auto;
-            margin-bottom: 10px;
-            border-radius: 10px;
+            margin-bottom: 10 px;
+            border-radius: 10 px;
         }
         .popup p {
-            font-size: 18px;
-            margin: 10px 0;
+            font-size: 18 px;
+            margin: 10 px 0;
         }
         .overlay {
             display: none;
             position: fixed;
             top: 0;
             left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
+            width: 100 %;
+            height: 100 %;
+            background-color: rgba (0, 0, 0, 0.5);
             z-index: 999;
         }
         .close-btn {
             display: inline-block;
-            margin-top: 10px;
-            padding: 5px 10px;
+            margin-top: 10 px;
+            padding: 5 px 10 px;
             background-color: #ff69b4;
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 5 px;
             cursor: pointer;
-            font-size: 14px;
-            transition: background-color 0.3s ease;
+            font-size: 14 px;
+            transition: background-color 0.3 s ease;
         }
         .close-btn:hover {
             background-color: #ff1493;
