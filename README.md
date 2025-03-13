@@ -70,6 +70,66 @@
         .cta-button:hover {
             background-color: #ff1493;
         }
+        .cta-button {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff1493;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            z-index: 1000;
+            text-align: center;
+        }
+        .popup img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .popup p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+        .close-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .close-btn:hover {
+            background-color: #ff1493;
+        }
     </style>
 </head>
 <body>
@@ -79,8 +139,6 @@
             <a href="#help">Помочь</a>
             <a href="#contacts">Контакты</a>
             <a href="#cats">Котики</a>
-            <a href="#login">Войти</a>
-            <a href="#reserve">Забронировать</a>
         </nav>
     </header>
     <main>
@@ -88,6 +146,7 @@
             <h1>Добро пожаловать в Котакафе "Лапка"</h1>
             <img src="face.jpg" alt="Лицевая картинка Котакафе Лапка"> 
             <a href="#our-cats" class="cta-button">Котики</a>
+            <button id="helpButton" class="cta-button">Помочь</button>
         </section>
         <section class="two-images">
             <img src="kitten.jpg" alt="Внутреннее убранство1"> 
@@ -164,6 +223,30 @@
                     });
                 }
             });
+        });
+    </script>
+    <div id="popup" class="popup">
+        <img src="cat-help.jpg" alt="Котик, который нуждается в помощи">
+        <p>Если хотите помочь, позвоните нам: <strong>+7 938 908 55 13</strong></p>
+        <button id="closePopup" class="close-btn">Закрыть</button>
+    </div>
+    <div id="overlay" class="overlay"></div>
+    <script>
+        const helpButton = document.getElementById('helpButton');
+        const popup = document.getElementById('popup');
+        const overlay = document.getElementById('overlay');
+        const closePopup = document.getElementById('closePopup');
+        helpButton.addEventListener('click', () => {
+            popup.style.display = 'block';
+            overlay.style.display = 'block';
+        });
+        closePopup.addEventListener('click', () => {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
+        });
+        overlay.addEventListener('click', () => {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
         });
     </script>
 </body>
