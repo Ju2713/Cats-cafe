@@ -132,6 +132,7 @@
         <img src="logotip.jpg" alt="Логотип Котакафе Лапка"> 
         <nav>
             <a href="#help">Помочь</a>
+            <a href="#contacts">Контакты</a>
             <a href="#cats">Котики</a>
         </nav>
     </header>
