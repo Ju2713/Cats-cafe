@@ -56,6 +56,20 @@
             width: 100 %;
             height: auto;
         }
+        .cta-button {
+            display: inline-block;
+            margin: 20 px auto;
+            padding: 10 px 20 px;
+            background-color: #ff69b4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5 px;
+            font-size: 16 px;
+            transition: background-color 0.3 s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff1493;
+        }
     </style>
 </head>
 <body>
@@ -73,6 +87,7 @@
         <section>
             <h1>Добро пожаловать в Котакафе "Лапка"</h1>
             <img src="face.jpg" alt="Лицевая картинка Котакафе Лапка"> 
+            <a href="#our-cats" class="cta-button">Познакомиться с нашими котиками</a>
         </section>
         <section class="two-images">
             <img src="kitten.jpg" alt="Внутреннее убранство1"> 
@@ -136,6 +151,21 @@
     <footer>
         <p>&copy; 2023 Котокафе "Лапка". Все права защищены.</p>
     </footer>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
      
