@@ -208,7 +208,7 @@
         </selection>
     </main>
     <footer>
-        <p>&copy; 2023 Котокафе "Лапка". Все права защищены.</p>
+        <p>&copy; 2025 Котокафе "Лапка". Все права защищены.</p>
     </footer>
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
