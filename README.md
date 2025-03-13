@@ -12,6 +12,7 @@
             margin: 0;
             padding: 0;
             background-color: #ffc0cb;
+             line-height: 1.6;
         }
         header { background-color: #ffc0cb; 
                 padding: 10 px; 
@@ -22,9 +23,15 @@
         header img { 
             height: 50 px; 
         }
-        nav { 
-            display: flex; 
-            gap: 20 px; 
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff69b4;
         }
         section { 
             padding: 20 px; 
@@ -56,7 +63,7 @@
             width: 100 %;
             height: auto;
         }
-        .cta-button {
+         .cta-button {
             display: inline-block;
             margin: 20 px auto;
             padding: 10 px 20 px;
@@ -65,20 +72,6 @@
             text-decoration: none;
             border-radius: 5 px;
             font-size: 16 px;
-            transition: background-color 0.3 s ease;
-        }
-        .cta-button:hover {
-            background-color: #ff1493;
-        }
-        .cta-button {
-            display: inline-block;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: #ff69b4;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
             transition: background-color 0.3s ease;
         }
         .cta-button:hover {
@@ -101,6 +94,7 @@
             width: 100px;
             height: auto;
             margin-bottom: 10px;
+            border-radius: 10px;
         }
         .popup p {
             font-size: 18px;
@@ -126,6 +120,7 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 14px;
+            transition: background-color 0.3s ease;
         }
         .close-btn:hover {
             background-color: #ff1493;
@@ -210,6 +205,12 @@
     <footer>
         <p>&copy; 2025 Котокафе "Лапка". Все права защищены.</p>
     </footer>
+    <div id="popup" class="popup">
+        <img src="cat-help.jpg" alt="Котик, который нуждается в помощи">
+        <p>Если хотите помочь, позвоните нам: <strong>+7 938 908 55 13</strong></p>
+        <button id="closePopup" class="close-btn">Закрыть</button>
+    </div>
+    <div id="overlay" class="overlay"></div>
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -224,14 +225,6 @@
                 }
             });
         });
-    </script>
-    <div id="popup" class="popup">
-        <img src="cat-help.jpg" alt="Котик, который нуждается в помощи">
-        <p>Если хотите помочь, позвоните нам: <strong>+7 938 908 55 13</strong></p>
-        <button id="closePopup" class="close-btn">Закрыть</button>
-    </div>
-    <div id="overlay" class="overlay"></div>
-    <script>
         const helpButton = document.getElementById('helpButton');
         const popup = document.getElementById('popup');
         const overlay = document.getElementById('overlay');
