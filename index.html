@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Котокафе "Лапка"</title>
+</head>
+<body>
+    <header>
+        <img src="logotip.jpg" alt="Логотип Котокафе Лапка">
+        <nav>
+            <a href="#help">Помочь</a>
+            <a href="#contacts">Контакты</a>
+            <a href="#cats">Котики</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Добро пожаловать в Котокафе "Лапка"</h1>
+            <img src="face.jpg" alt="Лицевая картинка Котокафе Лапка">
+            <a href="#our-cats" class="cta-button">Наши котики</a>
+            <button id="helpButton" class="cta-button">Помочь</button>
+        </section>
+
+
+<!-- Кнопка открытия -->
+<button class="open-btn">Открыть окно</button>
+
+<!-- Модальное окно -->
+<div class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Помощь</h2>
+        
+        <img src="cat-help.jpg" alt="Котик, который нуждается в помощи" width="100%" height="100%">
+        <p>Если хотите помочь, позвоните нам: <strong>+7 938 908 55 13</strong></p>
+    </div>
+</div>
+
+<script>
+    // Получаем элементы DOM
+    const modal = document.querySelector('.modal');
+    const openBtn = document.querySelector('.open-btn');
+    const closeBtn = document.querySelector('.close');
+
+    // Открытие модального окна
+    openBtn.addEventListener('click', () => {
+        modal.style.display = 'block';
+    });
+
+    // Закрытие при клике на крестик
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    // Закрытие при клике вне окна
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+</script>
+
+
+
+
+
+
+        <section class="two-images">
+            <img src="kitten.jpg" alt="Внутреннее убранство 1">
+            <img src="kitti.jpg" alt="Внутреннее убранство 2">
+        </section>
+        <section>
+            <h2>Что интересного вы у нас найдете</h2>
+            <p>Ассортимент, декор и персонал</p>
+        </section>
+        <div class="fragment" id="decor">
+            <h2>Декор</h2>
+            <p>Наше кафе состоит из двух зон, украшенных кошачьими элементами. Первая зона — само кафе, а вторая игровая, в которой вы можете провести время с нашими котиками.</p>
+            <img src="decore.jpg" alt="Картинка декора">
+        </div>
+        <div class="fragment" id="menu">
+            <h2>Напитки и десерты</h2>
+            <p>В нашем кафе большой выбор горячих и холодных напитков. А также большой выбор десертов в кошачьей тематике.</p>
+            <img src="desert.jpg" alt="Картинка напитков и десертов">
+        </div>
+        <div class="fragment" id="staff">
+            <h2>Наш персонал</h2>
+            <p>В кафе вас встретят прекрасные кошко-девушки. На протяжении всего вашего присутствия они будут сопровождать и радовать вас.</p>
+            <img src="personal.jpg" alt="Картинка персонала">
+        </div>
+        <section id="our-cats">
+            <h2>Наши котики</h2>
+            <div class="photo-container">
+                <div class="photo-item">
+                    <img src="mar.jpg" alt="Кот Марципан">
+                    <h3>Марципан</h3>
+                    <p>Это элегантный и изысканный котик с очаровательной внешностью. Он очень культурный и скромный, любит играть с солнечными зайчиками и плюшевыми мышками. А его любимое лакомство — лосось.</p>
+                </div>
+                <div class="photo-item">
+                    <img src="nik.jpg" alt="Кошка Никки">
+                    <h3>Никки</h3>
+                    <p>Это гордая и независимая кошечка. Она любит лежать на коленках у гостей и нежиться на солнышке. Если вы захотите ее угостить, то знайте, ее любимое блюдо — куриная грудка.</p>
+                </div>
+                <div class="photo-item">
+                    <img src="myr.jpg" alt="Кот Муро">
+                    <h3>Муро</h3>
+                    <p>Это очень ласковый котик. Он любит спать на подоконнике, греясь на солнышке. Муро нравится, когда его гладят или чешут ему животик. При желании можете покормить его креветками.</p>
+                </div>
+                <div class="photo-item">
+                    <img src="kleo.jpg" alt="Кошка Клео">
+                    <h3>Клео</h3>
+                    <p>Это очень озорная сиамская принцесса. Она очень умная кошка, которая любит играть с лазерной указкой и гладиться об ноги посетителей. А угостить ее вы можете сливочным сыром.</p>
+                </div>
+                <div class="photo-item">
+                    <img src="felix.jpg" alt="Кот Феликс">
+                    <h3>Феликс</h3>
+                    <p>Это важный джентльмен, любящий через окно наблюдать за птицами и играть с удочкой-дразнилкой. Он с радостью полежит у вас на коленях и погладится об все ваше тело. А если вы покормите его паштетом из креветок, он будет счастлив.</p>
+                </div>
+                <div class="photo-item">
+                    <img src="mgo.jpg" alt="Кошка Марго">
+                    <h3>Марго</h3>
+                    <p>Очаровательная, но горделивая кошка, которая никогда сама не попросит ласки. Однако она будет рада полежать у вас на коленях. Особенно, если вы угостите ее паштетом из индейки.</p>
+                </div>
+                <div class="photo-item">
+                    <img scr="misha.jpg" alt="Кот Миша">
+                    <h3>Миша</h3>
+                    <p>На первый взгляд это очень грозный и ворчливый кот. Но на самом деле он один из самых дружелюбных котов нашего заведения, который всегда рад провести с вами время. А чтобы заполучить его доверие угостите его тунцом.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Котокафе "Лапка". Все права защищены.</p>
+    </footer>
+    <div id="popup" class="popup">
+        <img src="cat-help.jpg" alt="Котик, который нуждается в помощи">
+        <p>Если хотите помочь, позвоните нам: <strong>+7 938 908 55 13</strong></p>
+        <button id="closePopup" class="close-btn">Закрыть</button>
+    </div>
+    <div id="overlay" class="overlay"></div>
+
+</body>
+</html>
